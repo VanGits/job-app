@@ -1,0 +1,44 @@
+.Footer{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.Footer .logo{
+    color: #393e46;
+    margin-left: 24px;
+   
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1500px;
+    width: 100%;
+    border: 1px solid #a5a5a560;
+    padding: 16px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+
+.footer-terms{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #393e46;
+    width: 500px;
+    padding: 12px;
+    
+}
+
+.footer-terms h4{
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
