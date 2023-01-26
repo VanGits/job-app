@@ -6,10 +6,10 @@ import { FaMoneyCheck } from "react-icons/fa";
 const Info = () => {
   const placeHolderArr = new Array(3).fill("");
 
-  const placeholders = placeHolderArr.map((placeholder) => (
+  const placeholders = placeHolderArr.map((placeholder, index) => (
     <div className="placeholder-wrapper">
-      <div className="placeholder">
-        <FaMoneyCheck className="check" />
+      <div className="placeholder" key={index}>
+        <FaMoneyCheck className="check"  key={index} />
       </div>
       <h4>Lorem Ipsum</h4>
     </div>

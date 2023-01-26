@@ -49,9 +49,9 @@
 
 
 .nav-content h4{
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
-    cursor: crosshair;
+    cursor:default;
 }
 
 .button{
