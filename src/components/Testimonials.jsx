@@ -15,11 +15,12 @@ const Testimonials = () => {
   const settings = {
     dots: true,
     infinite: false,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
+    autoplay: true,
    
-    centerMode: true,
+    
     
     dotsClass: "slick-dots slick-thumb",
   };
@@ -32,7 +33,7 @@ const Testimonials = () => {
     
 
       <div className="testimonials-content" data-aos="fade-up">
-        <h1>Testimonials</h1>
+        <h1>Testimonials / Job Openings?</h1>
 
 
         <Slider {...settings} className="testimonial-slider">
