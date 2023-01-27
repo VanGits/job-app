@@ -14,6 +14,7 @@ import {
   Routes,
 } from "react-router-dom";
 import Login from "./components/Login";
+import Openings from "./components/Openings";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
                 <Nav />
                 <Main />
                 <Info />
+                <Openings/>
                 <Testimonials />
                 <Footer />
               </>

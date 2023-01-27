@@ -119,30 +119,3 @@
     margin: 0 auto;
 }
 
-.right-arrow{
-    font-size: 48px;
-    font-weight: 800;
-    color: #393E46;
-    position: absolute;
-    bottom: 0;
-    cursor: pointer;
-    display: inline-block;
-    
-}
-
-.right-arrow:hover{
-    
-    animation: arrow 0.5s ease-in-out infinite;
-}
-
-@keyframes arrow {
-    0%{
-        transform: translateX(0);
-    }
-    50%{
-        transform: translateX(5px);
-    }
-    100%{
-        transform: translateX(0);
-    }
-}
