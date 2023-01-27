@@ -77,22 +77,33 @@
 }
 
 .slick-dots li button:before{
-    width: 30px;
-    height: 30px;
+   
     font-size: 18px;
-    line-height: 20px;
+    
+    
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
    
     
 }
+
+.slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-right: 50px;
+   
+}
+
 
 .slick-dots .slick-thumb{
     display: flex;
     align-items: center;
     justify-content: center;
+   
+    margin: 0 auto;
+    
    
 }
 

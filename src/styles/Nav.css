@@ -11,8 +11,7 @@
     top: 0;
     left: 0; 
     
-    text-align:center;
-    margin: 0 auto;
+   
     z-index: 9999;
     
 
@@ -49,6 +48,7 @@
 }
 .logo{
     font-size: 28px;
+    color: #393E46;
 }
 
 
@@ -65,7 +65,7 @@
     border-radius: 50px;
     border: 2px solid #393E46;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     justify-self: flex-end;
     
     color: #393E46;

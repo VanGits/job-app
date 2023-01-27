@@ -8,12 +8,12 @@ const Info = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
-  const placeHolderArr = new Array(3).fill("");
+  const placeHolderArr = [1,2,3]
 
-  const placeholders = placeHolderArr.map((placeholder, index) => (
-    <div className="placeholder-wrapper">
-      <div className="placeholder" key={index}>
-        <FaMoneyCheck className="check" key={index} />
+  const placeholders = placeHolderArr.map((placeholder) => (
+    <div className="placeholder-wrapper" key={placeholder}>
+      <div className="placeholder" key={placeholder}>
+        <FaMoneyCheck className="check" key={placeholder} />
       </div>
       <h4>Lorem Ipsum</h4>
     </div>
