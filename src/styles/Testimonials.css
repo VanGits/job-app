@@ -50,28 +50,27 @@
 .testimonial{
     border: 1px solid #adadad;
     border-radius: 24px;
+    max-width: 300px;
+    height: 500px;
+    
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
     
    
 
 }
+
+
 .testimonial-slider div{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.testimonial, .testimonial h2, .testimonial h1 {
-    width: 100%;
-    max-width: 300px;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- 
-  
-    
-   
-}
+
 .slick-track{
     display: flex;
     align-items: center;
@@ -118,4 +117,32 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+}
+
+.right-arrow{
+    font-size: 48px;
+    font-weight: 800;
+    color: #393E46;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+.right-arrow:hover{
+    
+    animation: arrow 0.5s ease-in-out infinite;
+}
+
+@keyframes arrow {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(0);
+    }
 }
