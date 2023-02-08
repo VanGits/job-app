@@ -231,7 +231,9 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3) {
   }
 
   .nav-content-buttons .log-in {
-    padding: 8px;
-    max-width: 85px;
+    padding: 6px;
+    max-width: 90px;
   }
+
+  
 }
