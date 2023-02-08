@@ -78,3 +78,18 @@ span h4{
     margin-top: 24px;
 }
 
+@media (max-width: 768px) {
+
+  .info-content{
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info-content h1{
+    font-size: 38px;
+    text-align: center;
+   
+  }
+}
+

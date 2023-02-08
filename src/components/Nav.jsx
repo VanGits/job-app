@@ -8,10 +8,12 @@ const Nav = () => {
   const handleHamburgerClick = () => {
     setMenuOpen(!menuOpen);
   };
+  console.log(menuOpen)
 
   return (
     <nav className="Nav">
-      <div className={menuOpen ? "nav-content" : "nav-content open"}>
+      <div className={menuOpen ? "nav-content open" : "nav-content"}>
+       
         <div className="nav-hamburger">
           <label htmlFor="check">
             <input
@@ -41,6 +43,7 @@ const Nav = () => {
           <button className="button sign-up">Start Now</button>
         </div>
       </div>
+     
     </nav>
   );
 };
