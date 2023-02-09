@@ -151,3 +151,37 @@ hr{
     
 }
 
+@media (max-width:768px){
+    .Login{
+        height: 1100px;
+    }
+    .login-content-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .login-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        height: 100%;
+        
+        
+    }
+
+    .Login p{
+        margin-bottom: 24px;
+    }
+
+    .Login h1{
+        color: #393E46;
+        
+    }
+    
+
+    
+}
+
