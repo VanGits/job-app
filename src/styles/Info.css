@@ -22,8 +22,8 @@
   font-size: 64px;
 }
 
-.check{
-    font-size: 64px;
+.check {
+  font-size: 64px;
 }
 
 .info-content h4 {
@@ -39,28 +39,23 @@
 
 .placeholder-container {
   display: flex;
-  
+
   justify-content: center;
   align-items: center;
   width: 100%;
   margin-top: 48px;
- 
-
 }
 .placeholder-wrapper {
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-   
-    flex-direction: column;
-   
-  
-  }
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  flex-direction: column;
+}
 
 .placeholder {
-  
   height: 200px;
   border-radius: 24px;
   background-color: #ff997ad3;
@@ -68,28 +63,39 @@
   max-width: 200px;
   text-align: center;
   margin: 48px;
-  display: flex;align-items: center;
+  display: flex;
+  align-items: center;
   justify-content: center;
   color: white;
-  
 }
 
-span h4{
-    margin-top: 24px;
+span h4 {
+  margin-top: 24px;
 }
-
+/* mobile responsive */
 @media (max-width: 768px) {
-
-  .info-content{
+  .info-content {
     max-width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .info-content h1{
-    font-size: 38px;
+  .info-content h1 {
+    font-size: 36px;
     text-align: center;
-   
   }
+  .info-content h4 {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .placeholder-container{
+    flex-direction: column;
+  }
+  .placeholder{
+    height: 150px;
+    max-width: 150px;
+  }
+  
 }
 

@@ -118,4 +118,25 @@
     justify-content: center;
     margin: 0 auto;
 }
+/* mobile responsive */
+@media (max-width: 768px){
+
+    .testimonials-content h1{
+        font-size: 38px;
+    }
+    .testimonial{
+        width: 100%;
+        max-width: 250px;
+        justify-self: center;
+        align-self: center;
+    }
+    .testimonial-slider div{
+        display: block;
+        margin: 0 auto;
+        text-align: center
+        
+       
+     
+    }
+}
 

@@ -42,3 +42,22 @@
     cursor: pointer;
 
 }
+/* mobile responsive */
+@media(max-width: 768px){
+    .footer-content{
+        max-width: 300px;
+    }
+
+    .footer-terms h4{
+        font-size: 8px;
+    }
+
+    .Footer .logo{
+        font-size: 12px;
+        word-wrap:break-word;
+        width: 200px;
+       
+    }
+
+   
+}

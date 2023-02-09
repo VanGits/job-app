@@ -8,7 +8,7 @@ const Nav = () => {
   const handleHamburgerClick = () => {
     setMenuOpen(!menuOpen);
   };
-  console.log(menuOpen)
+  
 
   return (
     <nav className="Nav">
