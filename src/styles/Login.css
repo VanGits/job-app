@@ -155,6 +155,12 @@ hr{
     .Login{
         height: 1100px;
     }
+
+    .Login .logo{
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
     .login-content-wrapper{
         display: flex;
         align-items: center;
