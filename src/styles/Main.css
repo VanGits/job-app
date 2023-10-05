@@ -62,11 +62,12 @@
 
 }
 
-.wave-wrapper{
+.wave-wrapper, .wave-wrapper img{
     fill: #e4e4e4;
     top: 0;
     left: 0;
     width: 100%;
+    
     overflow: hidden;
     line-height: 0;
 }
